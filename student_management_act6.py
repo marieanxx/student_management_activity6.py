@@ -4,14 +4,12 @@ from tkinter import messagebox
 students = []
 student_labels = []
 
-# Main Window
 window = tk.Tk()
 window.title("Student Management System")
 window.geometry("750x700")
 window.resizable(True, True)
 window.configure(bg="#F0F0F0")
 
-# Title
 title_label = tk.Label(window,
                        text = "Student Management System",
                        font = ("Arial", 16, "bold"),
