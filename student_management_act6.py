@@ -11,7 +11,7 @@ window.resizable(True, True)
 window.configure(bg="#F0F0F0")
 
 title_label = tk.Label(window,
-                       text = "Student Management System",
+                       text = "STUDENT MANAGEMENT SYSTEM",
                        font = ("Arial", 16, "bold"),
                        bg ="#F0F0F0",
                        fg ="#800080")
@@ -21,56 +21,56 @@ name_label = tk.Label(window,
                       font = ("Arial", 11), 
                       bg ="#F0F0F0",
                       fg = "#800080")
-name_entry = tk.Entry(window, width=25, font=("Arial", 11))
+name_entry = tk.Entry(window, width=35, font=("Arial", 11))
 
 id_label = tk.Label(window, 
                     text ="Student ID:", 
                     font = ("Arial", 11), 
                     bg ="#F0F0F0",
                     fg = "#800080")
-id_entry = tk.Entry(window, width=25, font=("Arial", 11))
+id_entry = tk.Entry(window, width=35, font=("Arial", 11))
 
 email_label = tk.Label(window, 
                        text ="Email:", 
                        font = ("Arial", 11), 
                        bg ="#F0F0F0",
                        fg = "#800080")
-email_entry = tk.Entry(window, width=25, font=("Arial", 11))
+email_entry = tk.Entry(window, width=35, font=("Arial", 11))
 
 phone_label = tk.Label(window, 
                        text ="Phone Number:", 
                        font = ("Arial", 11), 
                        bg ="#F0F0F0",
                        fg = "#800080")
-phone_entry = tk.Entry(window, width=25, font=("Arial", 11))
+phone_entry = tk.Entry(window, width=35, font=("Arial", 11))
 
 course_label = tk.Label(window, 
                         text ="Course:", 
                         font = ("Arial", 11), 
                         bg ="#F0F0F0",
                         fg = "#800080")
-course_entry = tk.Entry(window, width=25, font=("Arial", 11))
+course_entry = tk.Entry(window, width=35, font=("Arial", 11))
 
 year_label = tk.Label(window, 
                       text="Year Level:", 
                       font= ("Arial", 11), 
                       bg="#F0F0F0",
                       fg = "#800080")
-year_entry = tk.Entry(window, width=25, font=("Arial", 11))
+year_entry = tk.Entry(window, width=35, font=("Arial", 11))
 
 gpa_label = tk.Label(window,
                      text = "GPA: ",
                      font = ("Arial", 11),
                      bg = "#F0F0F0",
                      fg = "#800080")
-gpa_entry = tk.Entry(window, width=25, font=("Arial", 11))
+gpa_entry = tk.Entry(window, width=35, font=("Arial", 11))
 
 status_label = tk.Label(window,
                      text = "Status: ",
                      font = ("Arial", 11),
                      bg = "#F0F0F0",
                      fg = "#800080")
-status_entry = tk.Entry(window, width=25, font=("Arial", 11))
+status_entry = tk.Entry(window, width=35, font=("Arial", 11))
 
 def addStudents():
     name = name_entry.get()
@@ -131,25 +131,25 @@ button_frame = tk.Frame(window, bg="#F0F0F0")
 btn_add = tk.Button(button_frame,
                     text="Add Student",
                     font=("Arial", 10, "bold"),
-                    bg="#008080",
-                    fg="#800080",
-                    width=12,
+                    bg="#2D0C5E",
+                    fg="#FFFFFF",
+                    width=15,
                     command=addStudents)
 
 btn_clear = tk.Button(button_frame,
                       text="Clear Fields",
                       font=("Arial", 10, "bold"),
-                      bg="#008080",
-                      fg="#800080",
-                      width=12,
+                      bg="#2D0C5E",
+                      fg="#FFFFFF",
+                      width=15,
                       command=clearFields)
 
 btn_delete = tk.Button(button_frame,
                        text = "Delete Last",
                        font = ("Arial", 10, "bold"),
-                       bg = "#008080",
-                       fg = "#800080",
-                       width = 12,
+                       bg = "#2D0C5E",
+                       fg = "#FFFFFF",
+                       width = 15,
                        command = deleteLastStudent)
 
 total_label = tk.Label(window,
