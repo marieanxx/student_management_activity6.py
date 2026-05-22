@@ -5,7 +5,7 @@ students = []
 student_labels = []
 
 window = tk.Tk()
-window.title("Student Management System")
+window.title("STUDENT MANAGEMENT SYSTEM")
 window.geometry("750x700")
 window.resizable(True, True)
 window.configure(bg="#F0F0F0")
